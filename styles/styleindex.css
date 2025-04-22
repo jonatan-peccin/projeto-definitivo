@@ -1,0 +1,525 @@
+@charset "UTF-8";
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+
+    /*MENU*/
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+   
+    body{
+        background-color: white;
+        overflow-x: hidden ;
+    }
+    .imagem{
+        display: flex;
+        width: 100vw;
+        height: 450px;
+        background-image: url(..//img/imagemfundo.jpeg);
+        background-position: 100% 75%;
+    }
+    header nav{
+        background-color: darkgrey;
+        width: 100vw;
+    }
+
+    header nav ul{
+        display: flex;
+        
+        align-items: center;
+        justify-content: left;
+
+        list-style-type: none;
+        
+    }
+    header nav ul li a {
+        color: white;
+        text-decoration: none;
+
+        padding: 5px 30px ;
+        font-size: 18px;
+        display: block;
+        
+        margin-left: 1px;
+    }
+
+    header nav ul li a:hover {
+        background-color: black;
+    }
+
+    .drop-hover{
+        position: relative;
+    }
+
+    .drop-hover .drop{
+        position: absolute;
+        background-color: darkgrey;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+    }
+    .drop-hover .drop a {
+        padding: 20px;
+    }
+
+    .drop-hover:hover .drop{
+        height: 130px;
+    }
+
+
+    /*INDEX*/
+
+    main > section > h1{
+        margin: 15px;
+        text-align: center;
+    }
+    .imagem-1{
+        
+        width: 260px;
+        margin: auto;
+    }
+    main > section > img{
+    
+        width: 250px;
+        position:  relative;
+        margin: 1.5%;
+    
+    }
+
+    main > .texto-historia{
+        width:400px ;
+        margin: auto;
+    }
+
+
+    p{
+        text-align: center;
+    }
+
+    /*FILIAIS*/
+
+    .img-filial > img{
+        width: 350px;
+        margin: 10%;
+    }
+
+    .texto-filial{
+
+        width: 400px;
+        margin: auto;
+    }
+    .texto-filial > h1, p{
+        text-align: center;
+        margin: 20px;
+    }
+
+
+    .img-filial{
+        
+        width: 450px;
+        margin: auto;
+    }
+
+   
+
+
+    /*coleta*/
+    .guarda-formulario-int > section h3{
+        text-align: center;
+    }
+    
+    .container-lado-e > p >input{
+        width: 300px;
+        height: 30px;
+    }
+
+    .container-lado-d-cima > p > input{
+        width: 300px;
+        height: 30px;
+
+    }
+    .container-lado-d-baixo > p > input{
+        width: 300px;
+        height: 30px;
+
+    }
+    .agora{
+        width: 360px;
+        margin: auto;
+    }
+    #bt{
+        width: 350px;
+        margin: 1%;
+        padding: 15px;
+        background: 1px solid black;
+        
+    }
+    
+    
+
+     /*PRAÇAS*/
+     .img{
+        width: 500px;
+        height: 550px;
+        
+        margin: auto;
+        
+    }
+
+    .img > img{
+        width: 500px;
+        height: 500px;
+        margin-left: -1%;
+    }
+    section > #texto-praças{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2em;
+    }
+
+    
+
+
+    /*clienes*/
+    main{
+        display: flex;
+        flex-direction:column;
+        margin-top: 20%;
+    }
+
+    
+
+    .s-videos{
+        
+        width: 260px;
+        margin: 1%;
+        margin: auto;
+        position: relative;
+        
+    }
+   
+    .s-videos > img{
+        max-width: 100%;
+        position: relative;
+       
+        
+    }
+   
+    .container-login{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    h2{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .container-login > input{
+        width: 450px;
+        height: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+
+    /*MENU*/
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    body{
+        background-color: white;
+        overflow-x: hidden ;
+    }
+    
+    .imagem{
+        display: flex;
+        width: 100vw;
+        height: 450px;
+        background-image: url(..//img/imagemfundo.jpeg);
+        background-position: 100% 75%;
+    }
+    header nav{
+        background-color: darkgrey;
+        width: 100vw;
+    }
+
+    header nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+
+        list-style-type: none;
+    }
+    header nav ul li a {
+        color: white;
+        text-decoration: none;
+
+        padding: 20px 40px;
+        font-size: 18px;
+        display: block;
+    }
+
+    header nav ul li a:hover {
+        background-color: black;
+    }
+
+    .drop-hover{
+        position: relative;
+    }
+
+    .drop-hover .drop{
+        position: absolute;
+        background-color: darkgrey;
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+    }
+    .drop-hover .drop a {
+        padding: 20px;
+    }
+
+    .drop-hover:hover .drop{
+        height: 130px;
+    }
+   
+
+    
+    
+   
+   
+    /*INDEX*/
+    
+    main > section > h1{
+        text-align: center;
+        margin: 15px;
+    }
+
+    main > section > img{
+        width:90%;
+        height: 300px;
+        margin-left: 20px;
+        
+        
+    }
+    .imagem-1{
+        
+        width: 400px;
+        margin: auto;
+    }
+     .texto-historia{
+        
+        width: 430px;
+        margin: auto;
+        
+     }
+
+     .texto-historia > p{
+        margin-left: -0.5px;
+        
+     }
+
+     /*FILIAIS*/
+
+     img-filial > img{
+        width: 500px;
+        width: 450px;
+        margin: 10%;
+    }
+
+    .texto-filial{
+        width: 500px;
+        margin: auto;
+    }
+
+    .texto-filial > h1, p{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .img-filial{
+       
+        width: 550px;
+        margin: auto;
+    }
+    :hover .menu-none > li > a{
+        background-color: black;
+    }
+    :hover .menu-none{
+        display: block;
+       
+        margin-top: -170px;
+    
+        
+        
+    }
+    #rastreamento{
+        margin-top: 4px;
+        display: fixed;
+
+    }
+
+    /*Praças*/
+
+    .img{
+        width: 700px;
+        height: 850px;
+        
+        margin: auto;
+        
+    }
+
+    .img > img{
+        width: 800px;
+        height: 800px;
+        margin-left: -5%;
+    }
+
+    section > #texto-praças{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2em;
+    }
+
+
+    /*coleta*/
+
+    .guarda-formulario-int{
+        
+        display: flex;
+        flex-direction: column;
+        width: 770px;
+        margin: auto;
+        padding-top: 30px;
+    }
+    
+    .guarda-formulario-int h3{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: -15px;
+    }
+    .guarda-formulario-int p> input{
+        width: 300px;
+        padding: 5px;
+        margin-left: -60px;
+        border: 1px solid black;
+        
+    }
+
+    .container-lado-e{
+        width: 350px;
+        margin-top: 55px;
+        
+
+    }
+
+    .container-lado-d-cima{
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0);
+
+    }
+
+    .container-lado-d-baixo{
+        width: 350px;
+        background-color: white;
+        margin-top: -96.8%;
+        margin-left: 45.5%;
+    }
+    .container-lado-d-baixo #obs{
+        height: 248px;
+    }
+    #bt{
+        width: 700px;
+        margin-bottom: 10px;
+        padding: 15px;
+        background: 1px solid black;
+    }
+    /*clientes*/
+
+    section >  #containerl{
+        
+        padding-top: 50px;
+        width: 700px;
+        height: 350px;
+        margin: auto;
+    }
+    .s-videos > img{
+
+        background-color: red;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+
+    .s-videos{
+       
+        width: 300px;
+        height: 300px;
+        margin-top: 5%;
+        
+        margin-bottom: 5%;
+    }
+
+    .container-login{
+        
+        display: flex;
+        flex-direction: column;
+        margin-left: 40%;
+        margin-top: -60%;
+        
+        
+
+    }
+    section > #log{
+        background-color: red;
+        width: 50px;
+        margin-top: -100px;
+    }
+  .container-login > input{
+     width: 250px;
+     padding: 10px;
+     border-radius:5px ;
+     background-color: transparent;
+  }
+ 
+  .container-login > .user{
+    margin-top: 45px;
+    margin-left: 70px;
+
+  }
+    
+
+  .container-login > .senha{
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+
+    .container-login >  [type="button"], p{
+        margin-top: 40px;
+        margin-left: 82px;
+    }
+
+    .container-login > p{
+        margin-left: -10px;
+    }
+    
+
+    h2{
+        margin-top: 60px;
+        margin-left: 160px;
+    }
+
+    
+
+}
